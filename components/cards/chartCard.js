@@ -19,25 +19,25 @@ export default function ChartCard() {
       </div>
       <div className="flex justify-between">
         <div className="h-32 w-3 relative bg-gray-300 rounded-md">
-          <div className="absolute bottom-0 rounded-md z-10 w-full h-[20%]  bg-blue-700"></div>
+          <div className="absolute bottom-0 rounded-md z-10 w-full h-[20%]  bg-blue-700 hover:bg-blue-500"></div>
         </div>
         <div className="h-32 w-3 relative bg-gray-300 rounded-md">
-          <div className="absolute bottom-0 rounded-md z-10 w-full h-[45%]  bg-blue-700"></div>
+          <div className="absolute bottom-0 rounded-md z-10 w-full h-[45%]  bg-blue-700 hover:bg-blue-500"></div>
         </div>
         <div className="h-32 w-3 relative bg-gray-300 rounded-md">
-          <div className="absolute bottom-0 rounded-md z-10 w-full h-[30%]  bg-blue-700"></div>
+          <div className="absolute bottom-0 rounded-md z-10 w-full h-[30%]  bg-blue-700 hover:bg-blue-500"></div>
         </div>
         <div className="h-32 w-3 relative bg-gray-300 rounded-md">
-          <div className="absolute bottom-0 rounded-md z-10 w-full h-[60%]  bg-blue-700"></div>
+          <div className="absolute bottom-0 rounded-md z-10 w-full h-[60%]  bg-blue-700 hover:bg-blue-500"></div>
         </div>
         <div className="h-32 w-3 relative bg-gray-300 rounded-md">
-          <div className="absolute bottom-0 rounded-md z-10 w-full h-[80%]  bg-blue-700"></div>
+          <div className="absolute bottom-0 rounded-md z-10 w-full h-[80%]  bg-blue-700 hover:bg-blue-500"></div>
         </div>
         <div className="h-32 w-3 relative bg-gray-300 rounded-md">
-          <div className="absolute bottom-0 rounded-md z-10 w-full h-[50%]  bg-blue-700"></div>
+          <div className="absolute bottom-0 rounded-md z-10 w-full h-[50%]  bg-blue-700 hover:bg-blue-500"></div>
         </div>
         <div className="h-32 w-3 relative bg-gray-300 rounded-md">
-          <div className="absolute bottom-0 rounded-md z-10 w-full h-[30%]  bg-blue-700"></div>
+          <div className="absolute bottom-0 rounded-md z-10 w-full h-[30%]  bg-blue-700 hover:bg-blue-500"></div>
         </div>
       </div>
     </div>
