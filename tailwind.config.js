@@ -1,3 +1,9 @@
 module.exports = {
-  purge: ["./components/**/*.js", "./pages/**/*.js"],
+  content:['./pages/**/*.{html,js}',
+  './components/**/*.{html,js}',
+],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
