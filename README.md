@@ -9,7 +9,7 @@
 ![alt text](https://i.ibb.co/fpxhBjx/kage-ui-vercel-app.png "Screenshot of Homepage")
 
  <div align="center">
- <p><strong>A <a href="https://nextjs.org" target="_blank">Next.js</a> UI Components in in <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.</strong></p>
+ <p><strong>A <a href="https://nextjs.org" target="_blank">Next.js</a> UI Components in <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.</strong></p>
  <p>Uses Tailwind CSS' <a href="https://tailwindcss.com/docs/controlling-file-size" target="_blank">built-in purge option</a> to remove unused CSS.</p>
  
  <p>Visit <a href="https://kage-ui.vercel.app" target="_blank">here</a>.</p>
