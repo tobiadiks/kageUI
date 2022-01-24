@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function IndexPage() {
   return (
-    <div className="flex font-mono flex-col px-2  justify-center h-screen bg-blue-100">
+    <div className="flex font-mono flex-col px-2  justify-center h-screen bg-blue-50">
       <div className="text-center mx-auto">
         
-        <h2 className=" font-bold text-2xl bg-blue-400 text-transparent bg-clip-text md:text-5xl">
+        <h2 className=" font-bold text-2xl bg-blue-500 text-transparent bg-clip-text md:text-5xl">
           Welcome to Kage UI
         </h2>
-        <h3 className=" font-bold text-lg md:text-2xl text-blue-400">
+        <h3 className=" font-bold text-lg md:text-2xl text-blue-500">
           The Weekly Custom Tailwind Component Newsletter
         </h3>
        
@@ -17,18 +17,18 @@ export default function IndexPage() {
             href="https://www.getrevue.co/profile/kage-ui"
             target={"_blank"}
             rel="noreferrer"
-            className="text-sm p-3 mt-4 bg-blue-400 ease-in-out transition-all cursor-pointer delay-300 hover:to-red-400 hover:from-yellow-400 font-bold md:w-1/2 mx-auto text-white rounded"
+            className="text-sm p-3 mt-4 bg-blue-500 ease-in-out transition-all cursor-pointer delay-300 hover:bg-blue-400 font-bold md:w-1/2 mx-auto text-white rounded"
           >
             Browse Issues
           </a>
         </div>
 
-        <div className="mt-4 font-bold animate-pulse hover:text-blue-400">
+        <div className="mt-4 font-bold animate-pulse hover:text-blue-500">
           Join The Weekly Newsletter
         </div>
 
         <div
-          className="bg-blue-400 p-4 rounded-md mx-auto"
+          className="bg-blue-500 p-4 rounded-md mx-auto"
           id="revue-embed"
         >
           <form
@@ -82,7 +82,7 @@ export default function IndexPage() {
       </div>
       <div className="text-gray-900 text-center text-xs mt-8">
           Made with &#10084;&#65039; &{" "}
-          <span className="font-bold text-blue-400">Tailwind CSS</span>
+          <span className="font-bold text-blue-500">Tailwind CSS</span>
         </div>
     </div>
   );
