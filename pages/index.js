@@ -5,10 +5,10 @@ export default function IndexPage() {
     <div className="flex font-mono flex-col px-2  justify-center h-screen bg-gradient-to-r from-red-100 to-yellow-100">
       <div className="text-center mx-auto">
         
-        <h2 className=" font-bold text-2xl bg-gradient-to-r from-red-400 to-yellow-400 text-transparent bg-clip-text md:text-5xl">
+        <h2 className=" font-bold text-2xl bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text md:text-5xl">
           Welcome to Kage UI
         </h2>
-        <h3 className=" font-bold text-lg md:text-2xl text-blue-300">
+        <h3 className=" font-bold text-lg md:text-2xl text-blue-800">
           The Weekly Custom Tailwind Component Newsletter
         </h3>
        
@@ -17,7 +17,7 @@ export default function IndexPage() {
             href="https://www.getrevue.co/profile/kage-ui"
             target={"_blank"}
             rel="noreferrer"
-            className="text-sm p-3 mt-4 bg-gradient-to-r from-red-400 to-yellow-400 ease-in-out transition-all cursor-pointer delay-300 hover:to-red-400 hover:from-yellow-400 font-bold md:w-1/2 mx-auto text-white rounded"
+            className="text-sm p-3 mt-4 bg-blue-800 ease-in-out transition-all cursor-pointer delay-300 hover:to-red-400 hover:from-yellow-400 font-bold md:w-1/2 mx-auto text-white rounded"
           >
             Browse Issues
           </a>
@@ -28,7 +28,7 @@ export default function IndexPage() {
         </div>
 
         <div
-          className="bg-gradient-to-r from-red-400 to-yellow-400 p-4 rounded-md mx-auto"
+          className="bg-blue-800 p-4 rounded-md mx-auto"
           id="revue-embed"
         >
           <form
@@ -58,7 +58,7 @@ export default function IndexPage() {
                 id="member_submit"
               />
             </div>
-            <div className="revue-form-footer text-xs mt-2">
+            <div className="revue-form-footer text-xs mt-2 text-white">
               By subscribing, you agree with Revue’s{" "}
               <a
                 target="_blank"
