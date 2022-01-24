@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function IndexPage() {
   return (
-    <div className="flex font-mono flex-col px-2  justify-center h-screen bg-gradient-to-r from-red-100 to-yellow-100">
+    <div className="flex font-mono flex-col px-2  justify-center h-screen bg-blue-100">
       <div className="text-center mx-auto">
         
-        <h2 className=" font-bold text-2xl bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text md:text-5xl">
+        <h2 className=" font-bold text-2xl bg-blue-400 text-transparent bg-clip-text md:text-5xl">
           Welcome to Kage UI
         </h2>
-        <h3 className=" font-bold text-lg md:text-2xl text-blue-800">
+        <h3 className=" font-bold text-lg md:text-2xl text-blue-400">
           The Weekly Custom Tailwind Component Newsletter
         </h3>
        
@@ -17,18 +17,18 @@ export default function IndexPage() {
             href="https://www.getrevue.co/profile/kage-ui"
             target={"_blank"}
             rel="noreferrer"
-            className="text-sm p-3 mt-4 bg-blue-800 ease-in-out transition-all cursor-pointer delay-300 hover:to-red-400 hover:from-yellow-400 font-bold md:w-1/2 mx-auto text-white rounded"
+            className="text-sm p-3 mt-4 bg-blue-400 ease-in-out transition-all cursor-pointer delay-300 hover:to-red-400 hover:from-yellow-400 font-bold md:w-1/2 mx-auto text-white rounded"
           >
             Browse Issues
           </a>
         </div>
 
-        <div className="mt-4 font-bold animate-pulse hover:text-blue-700">
+        <div className="mt-4 font-bold animate-pulse hover:text-blue-400">
           Join The Weekly Newsletter
         </div>
 
         <div
-          className="bg-blue-800 p-4 rounded-md mx-auto"
+          className="bg-blue-400 p-4 rounded-md mx-auto"
           id="revue-embed"
         >
           <form
@@ -82,7 +82,7 @@ export default function IndexPage() {
       </div>
       <div className="text-gray-900 text-center text-xs mt-8">
           Made with &#10084;&#65039; &{" "}
-          <span className="font-bold text-blue-800">Tailwind CSS</span>
+          <span className="font-bold text-blue-400">Tailwind CSS</span>
         </div>
     </div>
   );
