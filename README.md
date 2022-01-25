@@ -6,7 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![alt text](https://i.ibb.co/fpxhBjx/kage-ui-vercel-app.png "Screenshot of Homepage")
+![alt text](https://i.ibb.co/7Wcbz1d/screen.png "Screenshot of Homepage")
 
  <div align="center">
  <p><strong>A <a href="https://nextjs.org" target="_blank">Next.js</a> UI Components in <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.</strong></p>
