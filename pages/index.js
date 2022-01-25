@@ -8,7 +8,7 @@ export default function IndexPage() {
         <h2 className=" font-bold text-2xl bg-gradient-to-r from-blue-800 to-blue-400 text-transparent bg-clip-text md:text-5xl">
           Welcome to Kage UI
         </h2>
-        <h3 className=" font-bold text-lg md:text-2xl text-blue-800">
+        <h3 className=" font-light text-base md:text-2xl text-blue-800">
           The Weekly Custom Tailwind Component Newsletter
         </h3>
        
@@ -23,7 +23,7 @@ export default function IndexPage() {
           </a>
         </div>
 
-        <div className="mt-4 font-bold animate-pulse hover:text-blue-700">
+        <div className="mt-4 font-light animate-pulse hover:text-blue-700">
           Join The Weekly Newsletter
         </div>
 
