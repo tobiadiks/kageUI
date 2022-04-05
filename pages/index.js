@@ -1,9 +1,13 @@
 import Image from "next/image";
-
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 export default function IndexPage() {
   return (
-    <div className=" font-mono relative  px-2 py-8 md:py-12 md:min-h-screen  justify-center h-full bg-gradient-to-br from-gray-800  to-gray-900">
-            <div className="md:w-48 w-16 h-16 md:h-48 hover:scale-150 opacity-40 z-0 bg-gradient-to-r from-yellow-400 to-red-600 fixed bottom-0 rounded-full left-0 transform translate-y-1/2 -translate-x-1/2 "></div>
+   
+    <div className=" font-mono relative  px-2 py-8 md:py-12 md:min-h-screen  justify-center min-h-screen bg-gradient-to-br from-gray-800  to-gray-900">
+            
+            <div className="md:w-48 w-16 h-16 md:h-48 animate-ping hover:scale-150 opacity-40 z-0 bg-gradient-to-r from-yellow-400 to-red-600 fixed bottom-0 rounded-full left-0 transform translate-y-1/2 -translate-x-1/2 "></div>
+            <Fade top big ssrFadeout>
       <div className="text-center mx-auto z-40">
         
         <h2 className=" font-bold text-2xl z-40 bg-gradient-to-r from-yellow-400 to-red-600 text-transparent bg-clip-text md:text-5xl">
@@ -18,13 +22,13 @@ export default function IndexPage() {
             href="https://www.getrevue.co/profile/kage-ui"
             target={"_blank"}
             rel="noreferrer"
-            className="text-base p-3 mt-4 bg-gradient-to-r from-yellow-400 to-red-600 ease-in-out transition-all cursor-pointer delay-300 hover:to-red-500 font-light md:w-1/2 mx-auto text-white rounded"
+            className="text-base font-bold p-3 mt-4 bg-gradient-to-r from-yellow-400 to-red-600 ease-in-out transition-all cursor-pointer delay-300 hover:to-red-500  md:w-1/2 mx-auto text-white rounded"
           >
             Browse Issues
           </a>
         </div>
 
-        <div className="mt-8 font-bold z-40 animate-pulse  text-blue-500">
+        <div className="mt-8 font-bold z-40 animate-pulse  text-blue-400">
           Join The Weekly Newsletter
         </div>
 
@@ -53,7 +57,7 @@ export default function IndexPage() {
 
             <div className="revue-form-actions z-40">
               <input
-                className="p-3 bg-gradient-to-r border from-yellow-400 to-red-600 text-white mt-2 md:mt-0 md:rounded-l-none rounded-md md:rounded-r-md font-light cursor-pointer hover:to-red-600"
+                className="p-3 bg-gradient-to-r font-bold border from-yellow-400 to-red-600 text-white mt-2 md:mt-0 md:rounded-l-none rounded-md md:rounded-r-md  cursor-pointer hover:to-red-600"
                 type="submit"
                 value="Subscribe"
                 name="member[subscribe]"
@@ -87,6 +91,8 @@ export default function IndexPage() {
           Made with &#10084;&#65039; &{" "}
           <span className="font-bold text-blue-500">Tailwind CSS</span>
         </div>
+        </Fade>
     </div>
+    
   );
 }
