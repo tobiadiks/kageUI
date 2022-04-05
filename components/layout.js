@@ -3,8 +3,8 @@ import Footer from "./footer";
 
 export default function Layout(props) {
   return (
-    <div className="flex flex-col min-h-screen">
-      <main className="flex-1 w-screen ">{props.children}</main>
+    <div className=" w-full">
+      <main className="w-full">{props.children}</main>
     </div>
   );
 }
